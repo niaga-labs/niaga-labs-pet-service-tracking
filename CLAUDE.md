@@ -1,7 +1,7 @@
 # Kilat Pet Delivery - service-tracking
 
 Live trip tracking: GPS waypoints, the WebSocket hub the apps subscribe to, owner and runner chat, and public share links for a trip in progress.
-Jira project **KPD** - GitHub `Kilat-Pet-Delivery/service-tracking` - stack **Go 1.24 - Gin - GORM - PostgreSQL - Kafka**. Global rules live in `~/.claude/`;
+Jira project **KPD** - GitHub `niaga-labs/niaga-labs-pet-service-tracking` - stack **Go 1.24 - Gin - GORM - PostgreSQL - Kafka**. Global rules live in `~/.claude/`;
 this file only adds what is specific here.
 
 ## Orient here first

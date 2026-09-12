@@ -8,11 +8,11 @@ import (
 	"github.com/gorilla/websocket"
 	"go.uber.org/zap"
 
-	"github.com/Kilat-Pet-Delivery/lib-common/auth"
-	"github.com/Kilat-Pet-Delivery/lib-common/middleware"
-	"github.com/Kilat-Pet-Delivery/lib-common/response"
-	"github.com/Kilat-Pet-Delivery/service-tracking/internal/application"
-	"github.com/Kilat-Pet-Delivery/service-tracking/internal/ws"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/auth"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/middleware"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/response"
+	"github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/application"
+	"github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/ws"
 )
 
 var upgrader = websocket.Upgrader{

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	shareDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/share"
-	trackingDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/tracking"
 	"github.com/google/uuid"
+	shareDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/share"
+	trackingDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/tracking"
 	"go.uber.org/zap"
 )
 

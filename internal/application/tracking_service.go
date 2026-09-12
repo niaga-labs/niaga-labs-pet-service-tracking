@@ -9,11 +9,11 @@ import (
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 
-	"github.com/Kilat-Pet-Delivery/lib-common/domain"
-	"github.com/Kilat-Pet-Delivery/lib-common/kafka"
-	"github.com/Kilat-Pet-Delivery/lib-proto/events"
-	trackingDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/tracking"
-	"github.com/Kilat-Pet-Delivery/service-tracking/internal/ws"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/domain"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/kafka"
+	"github.com/niaga-labs/niaga-labs-pet-lib-proto/events"
+	trackingDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/tracking"
+	"github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/ws"
 )
 
 // WaypointDTO represents a waypoint in API responses.
