@@ -10,8 +10,8 @@ import (
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 
-	"github.com/Kilat-Pet-Delivery/lib-common/domain"
-	trackingDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/tracking"
+	"github.com/niaga-labs/niaga-labs-pet-lib-common/domain"
+	trackingDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/tracking"
 )
 
 // TripTrackModel is the GORM model for the trip_tracks table.

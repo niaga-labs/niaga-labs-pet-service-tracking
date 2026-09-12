@@ -3,9 +3,9 @@ package events
 import (
 	"context"
 
-	kafkaLib "github.com/Kilat-Pet-Delivery/lib-common/kafka"
-	"github.com/Kilat-Pet-Delivery/lib-proto/events"
-	"github.com/Kilat-Pet-Delivery/service-tracking/internal/application"
+	kafkaLib "github.com/niaga-labs/niaga-labs-pet-lib-common/kafka"
+	"github.com/niaga-labs/niaga-labs-pet-lib-proto/events"
+	"github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/application"
 	kafkaGo "github.com/segmentio/kafka-go"
 	"go.uber.org/zap"
 )

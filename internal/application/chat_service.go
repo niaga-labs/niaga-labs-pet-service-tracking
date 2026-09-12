@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	chatDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/chat"
-	"github.com/Kilat-Pet-Delivery/service-tracking/internal/ws"
 	"github.com/google/uuid"
+	chatDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/chat"
+	"github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/ws"
 	"go.uber.org/zap"
 )
 

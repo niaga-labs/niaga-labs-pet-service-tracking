@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	shareDomain "github.com/Kilat-Pet-Delivery/service-tracking/internal/domain/share"
 	"github.com/google/uuid"
+	shareDomain "github.com/niaga-labs/niaga-labs-pet-service-tracking/internal/domain/share"
 	"gorm.io/gorm"
 )
 
